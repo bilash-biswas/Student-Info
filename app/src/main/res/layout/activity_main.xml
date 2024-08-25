@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="70dp"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:layout_marginVertical="25dp"
+        android:id="@+id/studentName"
+        android:hint="Student Name"
+        android:paddingVertical="10dp"
+        android:layout_marginHorizontal="10dp"
+        android:paddingHorizontal="15dp"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:textSize="20sp"
+        android:background="@drawable/ed_back"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <EditText
+        android:id="@+id/subjectName"
+        android:hint="Subject Name"
+        android:paddingVertical="10dp"
+        android:paddingHorizontal="15dp"
+        android:layout_marginHorizontal="10dp"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:textSize="20sp"
+        android:background="@drawable/ed_back"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <EditText
+        android:layout_marginVertical="25dp"
+        android:id="@+id/studyTime"
+        android:hint="Study Time"
+        android:paddingVertical="10dp"
+        android:layout_marginHorizontal="10dp"
+        android:paddingHorizontal="15dp"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:textSize="20sp"
+        android:background="@drawable/ed_back"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <EditText
+        android:id="@+id/salary"
+        android:hint="Salary"
+        android:paddingVertical="10dp"
+        android:paddingHorizontal="15dp"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:layout_marginHorizontal="10dp"
+        android:textSize="20sp"
+        android:background="@drawable/ed_back"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <EditText
+        android:layout_marginVertical="25dp"
+        android:id="@+id/activeDays"
+        android:hint="Days"
+        android:paddingVertical="10dp"
+        android:layout_marginHorizontal="10dp"
+        android:paddingHorizontal="15dp"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:textSize="20sp"
+        android:background="@drawable/ed_back"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <EditText
+        android:id="@+id/mobileNumber"
+        android:hint="Mobile Number"
+        android:paddingVertical="10dp"
+        android:layout_marginHorizontal="10dp"
+        android:paddingHorizontal="15dp"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:textSize="20sp"
+        android:background="@drawable/ed_back"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <Button
+        android:layout_marginTop="20dp"
+        android:id="@+id/addStudent"
+        android:text="Add Student"
+        android:textAllCaps="false"
+        android:layout_marginHorizontal="10dp"
+        android:textSize="20sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+
+</LinearLayout>
