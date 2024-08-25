@@ -16,7 +16,7 @@ public class MobileNumberActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_mobile_number);
 
-        name = findViewById(R.id.)
+
 
     }
 }
